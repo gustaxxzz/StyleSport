@@ -331,3 +331,19 @@ footer span {
     height: 100%;
   }
 }
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 6px #0000007a;
+    transition: 0.3s;
+    width: 100%;
+    display: inline-flex;
+}
+#carouseExampleInterval .carousel-inner img {
+    height: auto;
+    width: 90%;
+}
