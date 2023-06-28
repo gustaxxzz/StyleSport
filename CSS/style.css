@@ -2,7 +2,7 @@
 
 #carouselExampleInterval {
   position: relative;
-  z-index: 10;
+  z-index: 1;
   padding-top: 0;
   margin-left: 0;
   margin-right: 0;
@@ -34,8 +34,8 @@ body {
 }
 
 header {
-  z-index: 1;
-  background-color: #080b1b;
+  z-index: 10;
+  background-color: #0a0c20;
   height: 80px;
   position: fixed;
   width: 100vw;
@@ -62,6 +62,7 @@ header {
   text-transform: uppercase;
   font-size: 1.25em;
   transition: 0.3s;
+  font-family: Bebas Neue;
 }
 .menu-header a:hover:not(.botao) {
   font-size: 1.6em;
@@ -78,7 +79,7 @@ header {
   height: 60px;
 }
 .botao {
-  background-color: #080b1b;
+  background-color: #3b3f50;
   height: 45px;
   width: 150px;
   text-align: center;
@@ -139,7 +140,7 @@ h1 {
   padding-bottom: 40px;
 }
 .sobre-projetos h2 {
-  color: #F9003D;
+  color: #0a0c20;
   font-size: 50px;
   font-weight: 500;
   margin-bottom: 40px;
@@ -263,7 +264,7 @@ h1 {
 }
 footer {
   height: 80px;
-  background-color: #F9003D;
+  background-color: #0a0c20;
   color: white;
   display: flex;
   justify-content: center;
