@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/layout_smartphone.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+
     <script
       src="https://kit.fontawesome.com/b7a0eff3c2.js"
       crossorigin="anonymous"
@@ -22,7 +24,17 @@
           <a href="#">Localização</a>
           <a class="botao" href="mailto:example@email.com">Contate-nos</a>
         </nav>
-          <!-- inicio carousel pagina principal -->
+        <a
+          class="menu-barras"
+          href="javascript: void(0)"
+          onclick="mostrarMenu()"
+        >
+          <i id="icone-menu" class="fas fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <!-- Fim Menu -->
+    <!-- inicio carousel pagina principal -->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
       <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
@@ -56,16 +68,6 @@
   </div>
   <!-- fim do carousel pagina pagina principal -->
   <!--fim do carousel-->
-        <a
-          class="menu-barras"
-          href="javascript: void(0)"
-          onclick="mostrarMenu()"
-        >
-          <i id="icone-menu" class="fas fa-bars"></i>
-        </a>
-      </div>
-    </header>
-    <!-- Fim Menu -->
     <!-- Início Whats -->
     <section class="whatsapp">
       <div class="container-grid logo-whats">
@@ -75,24 +77,7 @@
       </div>
     </section>
     <!-- Fim Whats -->
-    <!-- Início Banner -->
-    <main>
-      <div class="banner">
-        <div class="container-grid conteudo-banner">
-          <div class="texto-banner">
-            <h1>Cursos Técnicos Senai</h1>
-            <div class="linha-amarela"></div>
-            <span class="titulo-Destaques">Destaques</span>
-            <img
-              class="mouse"
-              id="mouse"
-              src="./img/mouse-down.png"
-              alt="Imagem de um mouse"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- Fim Banner -->
+   
       <!-- Início Sobre Projetos -->
       <section class="sobre-projetos">
         <div class="container-grid">
@@ -167,5 +152,6 @@
   </body>
 
 <script src="./js/mostrarMenu.js"></script>
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 
 </html>
