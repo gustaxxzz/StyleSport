@@ -135,27 +135,17 @@ h1 {
   width: 80px;
 }
 .sobre-projetos {
-  background-color: #080324;
+  background-color: #383838;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 .sobre-projetos h2 {
-  color: #0a0c20;
+  color: #000000;
   font-size: 50px;
   font-weight: 500;
   margin-bottom: 40px;
 }
-.conteudo-sobre {
-  display: flex;
-  justify-content: space-between;
-}
-.imagem-sobre {
-  width: 40%;
-}
-.texto-sobre {
-  width: 50%;
-}
-.textto-participantes {
+.texto-participantes {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-transform: uppercase;
@@ -528,4 +518,7 @@ footer span {
 
 }
 /*  Fim CSS Card Produtos */
+.conteudo-sobre img {
+  border-radius: 200px;
+}
 
