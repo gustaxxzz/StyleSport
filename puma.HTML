@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/nike.css" />
+    <link rel="stylesheet" href="./css/layout_smartphone.css">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit">
-    <title>StyleSporte</title>
-</head>
-<body>
-    <!-- inicio menu reponsivo -->
-    <header id="header">
-        <a id="logo" href="index.html"><img src="./img/logo (2).png" alt="Logo Shoes World"></a>
-        <nav id="nav">
-            <Carrinho aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
-                aria-expanded="false">
-                <span id="hamburger"></span>
-            </Carrinho>
-            <ul id="menu" role="menu">
-                <li><a class="linkMenu" href="index.HTML">Home</a></li>
-                <li><a class="linkMenu" href="produtos.HTML">Produtos</a></li>
-                <li><a class="linkMenu" href="suporte.HTML">Contato</a></li>
-                <!-- atalho para copiar conteudo > Alt + Shift + Seta para baixo -->
-            </ul>
+
+    <script
+      src="https://kit.fontawesome.com/b7a0eff3c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>SportStyle</title>
+  </head>
+  <body>
+    <!-- Início Menu -->
+    <header>
+      <div class="container-grid conteudo-header">
+        <img class="logo" src="./img/logotipo.png" alt="Logo Senai" />
+        <nav id="menu-header" class="menu-header">
+          <a href="index.html" title="Início da Página" class="fa-solid fa-house" style="color: #ffffff;" ></a>
+          <a href="#">Sobre</a>
+          <a href="#">Localização</a>
+          <a class="botao" href="paodecuritiba@gmail.com">Suporte</a>
         </nav>
+        <a
+          class="menu-barras"
+          href="javascript: void(0)"
+          onclick="mostrarMenu()"
+        >
+          <i id="icone-menu" class="fas fa-bars"></i>
+        </a>
+      </div>
     </header>
     <!-- fim menu reponsivo -->
    
