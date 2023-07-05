@@ -20,7 +20,7 @@ header {
   z-index: 1;
   background-color: #160d10;
   height: 80px;
-  position: fixed;
+  position: relative;
   width: 100vw;
 }
 .conteudo-header {
@@ -31,7 +31,7 @@ header {
 }
 
 .logo {
-  height: 40px;
+  height: 60px;
 }
 .menu-header {
   width: 50%;
@@ -331,3 +331,139 @@ footer span {
     height: 100%;
   }
 }
+/* inicio footer */
+.rodape {
+  padding: 50px 50px;
+}
+.rodape .container #img-logo {
+  height: 50%;
+  width: 50%;
+  padding-left: 10px;
+  transition: transform .3s;
+  display: block;
+}
+.rodape .container #img-logo:hover {
+  transform: scale(1.5);
+
+}
+.rodape .info-contato p {
+      margin: 0;
+}
+.rodape a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px
+}
+.rodape a:hover {
+  font-weight: bold;
+}
+.rodape .redes-sociais {
+  display: inline-block;
+}
+.rodape .redes-sociais img {
+  width: 50px;
+  height: 50px;
+  padding-left: 0;
+  margin-left: 0.7rem;
+  transition: transform .3s;
+  border-radius: 15px ;
+}
+.rodape .redes-sociais img:hover {
+  z-index: 1;
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
+}
+.rodape p.direitos {
+  text-align: center;
+  margin-top: 40px;
+}
+/* fim footer */
+/* Início whatsapp */
+.whatsapp {
+    position: fixed;
+    z-index: 2;
+    top: 200px;
+    right: 20px;
+}
+.whatsapp img {
+    height: 60px;
+}
+
+/* efeitos pulse */
+.whatsapp .pulse {
+    animation: pulse 0.7s infinite;
+margin: 0 auto;
+display: table;
+margin-top: 50px;
+animation-direction: alternate;
+-webkit-animation-name: pulse;
+animation-name: pulse;
+}
+@-webkit-keyframes pulse {
+0% {
+    -webkit-transform: scale(1);
+    -webkit-filter: brightness(100%);
+}
+100% {
+    -webkit-transform: scale(1.1);
+    -webkit-filter: brightness(110%);
+}
+}
+@keyframes pulse {
+0% {
+    transform: scale(1);
+    filter: brightness(100%);
+}
+100% {
+    transform: scale(1.1);
+    filter: brightness(110%);
+}
+}
+/* fim efeito pulse */
+
+/* Inicío CSSS Card Produtos */
+.text-center .mb-5 {
+    margin-top: 20px;
+}
+.text-center .mb-5 .col-lg-4 {
+    border: none;
+}
+.card img {
+    max-height: 440px;
+    width: 100%;
+}
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+ .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+ }
+.hover-overlay .mask{
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+ .hover-overlay .mask:hover {
+    opacity: 1;
+ }
+ .card-body .btn {
+    background-color: #56b4f3;
+    color: white;
+    font-weight: 400;
+    border: none;
+
+ }
+/*  Fim CSS Card Produtos */
+
