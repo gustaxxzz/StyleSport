@@ -478,48 +478,48 @@
   
   /* Fim CSS Mapa */
   
-  /* início Whatsapp */
-  .whatsapp {
-    position: fixed;
-    z-index: 2;
-    top: 200px;
-    right: 20px;
-  }
-  .whatsapp img {
-    height: 60px;
-  }
-  .whatsapp .pulse {
-    animation: pulse 0.7s infinite;
-  margin: 0 auto;
-  display: table;
-  margin-top: 50px;
-  animation-direction: top;
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
-  }
-  @-webkit-keyframes pulse {
-  0% {
+  /* Início whatsapp */
+.whatsapp {
+  position: fixed;
+  z-index: 2;
+  top: 200px;
+  right: 20px;
+}
+.whatsapp img {
+  height: 60px;
+}
+
+/* efeitos pulse */
+.whatsapp .pulse {
+animation: pulse 0.7s infinite;
+margin: 0 auto;
+display: table;
+margin-top: 50px;
+animation-direction: alternate;
+-webkit-animation-name: pulse;
+animation-name: pulse;
+}
+@-webkit-keyframes pulse {
+0% {
   -webkit-transform: scale(1);
-  -webkit-filter: brightness(120%);
-  }
-  }
-  @keyframes pulse {
-  0% {
+  -webkit-filter: brightness(100%);
+}
+100% {
+  -webkit-transform: scale(1.1);
+  -webkit-filter: brightness(110%);
+}
+}
+@keyframes pulse {
+0% {
   transform: scale(1);
   filter: brightness(100%);
-  }
-  100% {
+}
+100% {
   transform: scale(1.1);
-  filter: brightness(100%);
-  }
-  
-  }
-  
-  
-  
-  
-  
-  /* fim Whatsapp */
+  filter: brightness(110%);
+}
+}
+/* fim efeito pulse */
   
   /* início CSS card produtos */
   
