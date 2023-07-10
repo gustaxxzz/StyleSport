@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bebas Neue';
+}
+
+.container-grid {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  z-index: 1;
+  background-color: #0f111c;
+  height: 80px;
+  position: relative;
+  width: 100vw;
+}
+.conteudo-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+.menu-header {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  transition: 0.3s;
+}
+.menu-header a:hover:not(.botao) {
+  font-size: 1.6em;
+  transition: 0.3s;
+  text-shadow: 4px 4px 6px #0000007a;
+}
+.whatsapp {
+  position: fixed;
+  z-index: 2;
+  top: 200px;
+  right: 40px;
+}
+.whatsapp img {
+  height: 60px;
+}
+.botao {
+  background-color: #A259F7;
+  height: 45px;
+  width: 150px;
+  text-align: center;
+  line-height: 47px;
+  font-size: 1.5em !important;
+  border: solid 1px #080324;
+  border-radius: 30PX 10px;
+}
+.botao:hover {
+  font-size: 1.6em !important;
+  height: 50px;
+  line-height: 50px;
+  width: 160px;
+  transition: 0.3s;
+  box-shadow: 4px 4px 6px #0000007a;
+}
+.menu-barras {
+  display: none;
+}
+.banner {
+  background-image: url(../img/imagem-fundo-banner.jpg);
+  height: 768px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.conteudo-banner {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+.texto-banner {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-around;
+}
+h1 {
+  color: white;
+  font-size: 80px;
+}
+.linha-amarela {
+  border: solid 1px #FFAF00;
+}
+.titulo-senai {
+  font-family:'Courier New', Courier, monospace;
+  color: #a7a7a7;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.mouse {
+  width: 80px;
+}
+.sobre-projetos {
+  background-color: #a7a7a7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.sobre-projetos h2 {
+  color: #0f111c;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.conteudo-sobre {
+  display: flex;
+  justify-content: space-between;
+}
+.imagem-sobre {
+  width: 40%;
+}
+.texto-sobre {
+  width: 50%;
+}
+.textto-participantes {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+}
+.conteudo-sobre h3 {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 500;
+}
+.texto-sobre p {
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+.info {
+  background-image: url(../img/imagem-fundo-info.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 40px 0;
+}
+.conteudo-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-info {
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  margin: 20px;
+}
+.card-info h3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.card-info p {
+  color: #A259F7;
+  font-size: 22px;
+  font-weight: 600;
+  border: solid 2px #A259F7;
+  width: 250px;
+  padding: 30px 0;
+  text-align: center;
+}
+.endereco {
+  padding: 40px 0;
+  background-image: url(../img/imagem-fundo-ranking.jpg);
+}
+.conteudo-endereco {
+  margin: 0 auto;
+  max-width: 850px;
+  position: relative;
+}
+.conteudo-endereco h2 {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 500;
+}
+.texto-endereco {
+  color: #A259F7;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #010010;
+  border: solid 2px #A259F7;
+  padding: 55px 55px;
+}
+.texto-endereco p {
+  width: 400px;
+  font-size: 20px;
+}
+.container-mapa {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 20%;
+}
+.mapa-responsivo {
+  position: absolute;
+  margin-top: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.container-video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 30%;
+  max-height: 200px;
+
+}
+.video-responsivo {
+  position: absolute;
+  margin-top: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+footer {
+  height: 80px;
+  background-color: #0f111c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 90%;
+  text-align: center;
+}
+@media screen and (max-width:1200px) {
+  .menu-header {
+    width: 60%;
+  }
+  .conteudo-sobre {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagem-sobre {
+    width: 80%;
+  }
+  .texto-sobre {
+    width: 80%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: space-between;
+  }
+  .conteudo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 660px;
+    justify-content: space-between;
+  }
+  .conteudo-endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 660px;
+    justify-content: space-between;
+  }
+  .conteudo-endereco h2 {
+    align-self: flex;
+  }
+  .texto-endereco {
+    width:  100%;
+  }
+  .container-mapa {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20%;
+  }
+  .mapa-responsivo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .container-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 30%;
+    max-height: 200px;
+  
+  }
+  .video-responsivo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+/* inicio footer */
+footer {
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color:  #0f111c;
+}
+.rodape {
+  padding: 50px 50px;
+}
+.rodape .container #img-logo {
+  height: 50%;
+  width: 50%;
+  padding-left: 10px;
+  transition: transform .3s;
+  display: block;
+}
+.rodape .container #img-logo:hover {
+  transform: scale(1.5);
+
+}
+.rodape .info-contato p {
+      margin: 0;
+}
+.rodape a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px
+}
+.rodape a:hover {
+  font-weight: bold;
+}
+.rodape .redes-sociais {
+  display: inline-block;
+}
+.rodape .redes-sociais img {
+  width: 50px;
+  height: 50px;
+  padding-left: 0;
+  margin-left: 0.7rem;
+  transition: transform .3s;
+  border-radius: 15px ;
+}
+.rodape .redes-sociais img:hover {
+  z-index: 1;
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
+}
+.rodape p.direitos {
+  text-align: center;
+  margin-top: 40px;
+}
+/* fim footer */
+/* Início whatsapp */
+.whatsapp {
+  position: fixed;
+  z-index: 2;
+  top: 200px;
+  right: 20px;
+}
+.whatsapp img {
+  height: 60px;
+}
+
+/* efeitos pulse */
+.whatsapp .pulse {
+  animation: pulse 0.7s infinite;
+margin: 0 auto;
+display: table;
+margin-top: 50px;
+animation-direction: alternate;
+-webkit-animation-name: pulse;
+animation-name: pulse;
+}
+@-webkit-keyframes pulse {
+0% {
+  -webkit-transform: scale(1);
+  -webkit-filter: brightness(100%);
+}
+100% {
+  -webkit-transform: scale(1.1);
+  -webkit-filter: brightness(110%);
+}
+}
+@keyframes pulse {
+0% {
+  transform: scale(1);
+  filter: brightness(100%);
+}
+100% {
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
+}
+/* Inicío CSS Card Produtos */
+.text-center .mb-5 {
+    margin-top: 20px;
+}
+.text-center .mb-5 .col-lg-4 {
+    border: none;
+}
+.text-center #logo-prod img {
+    height: 10px;
+}
+.card img {
+    max-height: 440px;
+    width: 100%;
+}
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+ .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+ }
+.hover-overlay .mask{
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+ .hover-overlay .mask:hover {
+    opacity: 1;
+ }
+ .card-body .btn {
+    background-color: #56b4f3;
+    color: white;
+    font-weight: 400;
+    border: none;
+
+ }
+/*  Fim CSS Card Produtos */
+
+
+
+
+
