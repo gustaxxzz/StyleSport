@@ -1,0 +1,46 @@
+﻿angular.module("Proj")
+    .constant("staticUrl", "https://static.mybookcard.com/api/v1/applications/a0b27ce6faca490c89893c7bd084cf17/fileuploads")
+    .constant("staticToken", "a0b27ce6faca490c89893c7bd084cf17")
+    .constant("urlSharer", "https://droper.app/")
+    .constant("urlPainel", "http://painel.cataloko.com/")
+    .constant("idOneSignal", "3a479470-f78f-442a-9604-bbe8513ab897")
+    .constant("urlGooglePlay", "https://play.google.com/store/apps/details?id=com.s9.cataloko")
+    .constant("urlAppStore", "https://apps.apple.com/br/app/droper/id1374613204")
+    .constant("mpTaxa", "8%")
+    .constant("mpTaxaDesc", "8 a 12%")
+    .constant("GeoApiUrl", "https://geo.cataloko.com/api/v1")
+
+
+    //PRODUCTIONS OPTIONS
+    //
+    // - HOW TO PUBLICATE
+    //   1 - run gulp scripts, apagar arquivo styles.min.css e gerar com gulp styles
+    //   2 - atualizar Index.cshtml
+    //   3 - Ligar o DisableDebugMode no Webconfig
+    //   4 - Publicar
+    //
+
+  .constant("ApiCK", "https://service.cataloko.com/api/")
+  .constant("ApiLapse", "https://lapses.droper.com.br/api/")
+  //.constant("ApiCK", "https://devservice.cataloko.com/api/")
+  //.constant("ApiCK", "http://localhost:3000/api/")
+  .constant("facebookID", "581702775331200")
+  .constant("notificationTimeout", "60000")
+  .constant("pagarMeCripto", "ek_live_MAaO6z6N7Umq8pxiEzw5yeIImvkc2J")
+  .constant("clearSaleApp", "n12y58pnveor69auc12j") 
+ .constant("Environment", "prod")
+
+ // DEV OPTIONS    
+  //// .constant("ApiCK", "https://devservice.cataloko.com/api/")
+  //.constant("ApiLapse", "https://lapses.droper.com.br/api/")
+  //.constant("ApiCK", "http://localhost:3000/api/")
+  //// .constant("ApiLapse", "http://localhost:3002/api/")
+  //.constant("facebookID", "118554898795409")
+  //.constant("notificationTimeout", "60000")
+  //.constant("pagarMeCripto", "ek_test_XfvDVpBxBlIJlq08jVbWRaaPeUl2B8")
+  //.constant("clearSaleApp", "n12y58pnveor69auc12j")
+  //.constant("Environment", "dev")
+
+   
+
+

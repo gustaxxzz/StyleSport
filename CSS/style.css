@@ -137,7 +137,7 @@ h1 {
 .texto-sobre {
   width: 50%;
 }
-.textto-participantes {
+.texto-participantes {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-transform: uppercase;
@@ -330,4 +330,21 @@ footer span {
     width: 100%;
     height: 100%;
   }
+}
+#carouselExampleInterval {
+  position: relative;
+  z-index: 10;
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  box-shadow: 6px 6px 6px #0000007a;
+  transition: 0.3s;
+  width: 100%;
+  display: inline-flex;
+  height: auto;
+}
+#carouseExampleInterval .carousel-inner img {
+  height: auto;
+  width: 90%;
 }
