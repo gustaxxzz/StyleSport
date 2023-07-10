@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/adidas.CSS">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/adidas.CSS" />
+    <link rel="stylesheet" href="./css/layout_smartphone.css">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-    <title>..:: Honoratoiphones ::.. </title>
-</head>
 
-<body>
-    <!-- aula 24/04/2023 - HTML -->
-    <!-- inicio menu responsivo -->
-    <header id="header">
-        <a id="logo" href="index.html"><img src="./img/logotipo.png" alt="logo Honoratoiphones"></a>
-        <nav id="nav">
-            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-expanded="false">
-                <span id="hamburger"></span>
-            </button>
-            <ul id="menu" role="menu">
-                <li><a class="linkMenu" href="index.html">Home</a></li>
-                <li><a class="linkMenu" href="produtos.html">Produtos</a></li>
-                <li><a class="linkMenu" href="streaming.html">#Streaming</a></li>
-                <li><a class="linkMenu" href="contato.html">contato</a></li>
-                <!-- atalho para copiar conteúd > alt + shift + seta para baixo -->
-            </ul>
-            </nav>
+    <script
+      src="https://kit.fontawesome.com/b7a0eff3c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>SportStyle</title>
+  </head>
+  <body>
+    <!-- Início Menu -->
+    <header>
+      <div class="container-grid conteudo-header">
+        <img class="logo" src="./img/logotipo.png" alt="Logo Senai" />
+        <nav id="menu-header" class="menu-header">
+          <a href="index.html" title="Início da Página" class="fa-solid fa-house" style="color: #ffffff;" ></a>
+          <a href="#">Sobre</a>
+          <a href="#">Localizaçao</a>
+          <a class="botao" href="paodecuritiba@gmail.com">Suporte</a>
+        </nav>
+        <a
+          class="menu-barras"
+          href="javascript: void(0)"
+          onclick="mostrarMenu()"
+        >
+          <i id="icone-menu" class="fas fa-bars"></i>
+        </a>
+      </div>
     </header>
     <!-- fim menu Reponsivo -->
     <!-- início CARD Produtos -->
     <div class="text-center">
-        <h4 class="mb-5"><strong>Conheça nossos Produtos</strong></h4>
+        <h4 class="mb-5"><strong>Conheça nossos produtos adidas em parceria com o Real Madrid</strong></h4>
+        <img src="./img/adidas Henrique/adidas 0000.png" alt="">
         <div class="row">
+            
             <!-- início Card produto 1 -->
             <div class="col-lg-4 col-md-12 md-4">
                 <div class="card">
@@ -43,9 +50,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title"> Camisa do Real Madrid edição especial </h5>
                         <p class="card-text">
-                            Camisa do Real Madrid edição especial R$149,90
+                             R$149,90
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -62,9 +69,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">Camisa do Real Madrid 22/23 </h5>
                         <p class="card-text">
-                            Camisa do Real Madrid 22/23 R$ 248,00
+                             R$ 248,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -81,9 +88,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">Camisa do real Madrid 21/22 </h5>
                         <p class="card-text">
-                            Camisa do real Madrid 21/22 R$ 150,00 
+                             R$ 150,00 
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -100,9 +107,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">Camisa Retrô Real Madrid 16/17 </h5>
                         <p class="card-text">
-                            Camisa Retrô Real Madrid 16/17 - Roxo R$ 100,00
+                             - Roxo R$ 100,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -119,9 +126,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">Camisa do Real Madrid edição especial1 </h5>
                         <p class="card-text">
-                            Camisa do Real Madrid edição especial R$149,90
+                             R$149,90
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -138,9 +145,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">Camisa Real Madrid 22/23 - Roxo </h5>
                         <p class="card-text">
-                            Camisa Real Madrid 22/23 - Roxo R$ 149,90
+                             R$ 149,90
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -157,9 +164,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title"> CHUTEIRA ADIDAS </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 1200,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -176,9 +183,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">CHUTEIRA ADIDAS </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 1200,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -195,9 +202,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">CHUTEIRA ADIDAS </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 1200,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -214,9 +221,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">CHUTEIRA ADIDAS </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 1200,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -233,9 +240,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">CHUTEIRA ADIDAS </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 1200,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -252,9 +259,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">CHUTEIRA ADIDAS </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 1200,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -271,9 +278,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">LUVA ADIDAS </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 100,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -290,9 +297,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">LUVA ADIDAS  </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            $ 100,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -309,9 +316,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">LUVA ADIDAS </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            $ 100,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -328,9 +335,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">BOLA ADIDAS REAL MADRID</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            $ 150,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -347,9 +354,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">BOLA ADIDAS REAL MADRID </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            $ 150,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -366,9 +373,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">BOLA ADIDAS REAL MADRID </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$150,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -385,9 +392,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">MEIA ADIDAS BRANCA </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 70,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -404,9 +411,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">MEIA ADIDAS PRETA </h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 70,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -423,9 +430,9 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">produto 1 </h5>
+                        <h5 class="card-title">MEIAS ADIDAS</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est ex laboriosam sapiente. Aliquam enim odio repudiandae? Nam voluptas omnis sapiente eligendi facilis, pariatur, non doloremque dolor atque labore et.
+                            R$ 70,00
                         </p>
                         <a href="" class="btn btn-primary">button</a>
                     </div>
@@ -433,22 +440,25 @@
             </div> 
     <!-- fim card produto 1 -->
 
-    <!-- início whatsapp -->
-<div class="whatsapp">
-    <div class="container-grid logo whats">
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=15996063835&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20loja%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20.%20%F0%9F%98%80%F0%9F%93%B1"><img src="./img/whats.png" class="pulse" alt="contato Whatsapp"></a>
+ <!-- início whatsapp -->
+ <div class="whatsapp">
+    <div class="container-grid logo-whats">
+      <a
+        target="_blank"
+        href="https://api.whatsapp.com/send?phone=15996271458&text=ol%C3%A1,estava%20no%20site%20da%20loja,%20e%20gostaria%20de%20mais%20informa%C3%A7oes"
+        ><img src="./img/redes sociais/whats.png" class="pulse" alt="contato whatsapp"></a>
     </div>
-</div>
-<!-- fim whatsapp -->
+  </div>
+ <!-- fim whatsapp -->
 
-    <!-- início footer -->
+ <!-- início footer -->
     <footer class="rodape">
         <div class="container">
             <div class="row m-0">
                 <!-- início logo -->
                 <div class="col-md-4">
                     <figure>
-                        <img src="./img/LOGOS MARCAS DA LOJA/logo-adidas-4096.png" alt="-logo_2">
+                        <img src="./img/logotipo.png" alt="-logo_2">
                     </figure>
                 </div>
                 <!-- fim logo -->
@@ -457,20 +467,21 @@
                     <div class="info-contato">
                         <p>E-mail</p>
                         <p>henriquega123@icloud.com</p><br>
-                    </div>                 
+                </div>                 
                 </div>
                 <!-- fim texto rodape -->
                 <!-- início das mídias sociais -->
                 <div class="col-md-4">
                     <figure class="redes-sociais">
                         <a href="#"><img src="./img/adidas Henrique/logo-instagram-png-fundo-transparente2.webp" alt=""></a>
-                        <a href="#"><img src="./img/redes sociais/whats.png" alt=""></a>
+                        <a href="#"><img src="./img/redes sociais/face.png" alt=""></a>
+                        <a href="#"><img src="./img/redes sociais/youtube.png" alt=""></a>
                     </div>
                     <br>
-                    <a href="index.html">Home</a>
-                    <a href="produtos.html">Produtos</a>
-                    <a href="streaming.html">#streaming</a>
-                    <a href="contato.html">contato</a>
+                    <a href="index.html">adidas</a>
+                    <a href="produtos.html">nike</a>
+                    <a href="streaming.html">puma</a>
+                    <a href="contato.html">jordan</a>
                 </div>
                 <!-- fim das mídias sociais -->
                 <!-- início dos direitos autorais -->
@@ -481,7 +492,7 @@
             </div>
         </div> 
     </footer>
-    <!-- fim footer -->
+ <!-- fim footer -->
 
 
 
