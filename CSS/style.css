@@ -197,7 +197,7 @@ h1 {
   font-size: 20px;
 }
 .card-info p {
-  color: #A259F7;
+  color: #ffffff;
   font-size: 22px;
   font-weight: 600;
   border: solid 2px #A259F7;
@@ -222,10 +222,10 @@ h1 {
   font-weight: 500;
 }
 .texto-endereco {
-  color: #A259F7;
+  color: #e3dceb;
   font-family: 'Courier New', Courier, monospace;
   background-color: #010010;
-  border: solid 2px #A259F7;
+  border: solid 2px #e3dee9;
   padding: 55px 55px;
 }
 .texto-endereco p {
